@@ -1,5 +1,6 @@
 #!/bin/bash
-/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MacOS/Unity \
+VERSION="2021.3.19f1-arm64"
+"/Applications/Unity/Hub/Editor/${VERSION}/Unity.app/Contents/MacOS/Unity" \
   -runTests \
   -batchmode \
   -projectPath ~/scripted_rollaball \
