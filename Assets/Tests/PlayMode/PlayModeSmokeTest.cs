@@ -21,6 +21,7 @@ namespace Tests
         [UnityTest]
         public IEnumerator SmokeTestEnumerator()
         {
+
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             Assert.IsNotNull(42);
